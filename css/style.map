@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.scss"
+	],
+	"sourcesContent": [
+		"// variables\r\n$deepBlue:#032f3e;\r\n$sectionHeading:24px;\r\n$offWhite:#f8f9fb;\r\n\r\n#main-nav{\r\n    background: $deepBlue;\r\n   \r\n   li{\r\n    float: left;\r\n    width: 14%;\r\n\r\n   \r\n      }\r\n   a{\r\n    color:$offWhite ;\r\n    text-decoration: none;\r\n    padding: 16px;\r\n    display: block;\r\n    text-align: center;\r\n}\r\n}\r\n\r\n#main-nav ul:after{\r\n    content: \"\";\r\n    display: block;\r\n    clear: both;\r\n\r\n}\r\nsection h1{\r\n    font-size: $sectionHeading;\r\n    color: $deepBlue;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAKA,AAAA,SAAS,CAAA;EACL,UAAU,EALJ,OAAO;CAoBhB;;;AAhBD,AAGG,SAHM,CAGN,EAAE,CAAA;EACD,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG;CAGP;;;AARP,AASG,SATM,CASN,CAAC,CAAA;EACA,KAAK,EAZC,OAAO;EAab,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,MAAM;CACrB;;;AAGD,AAAA,SAAS,CAAC,EAAE,AAAA,MAAM,CAAA;EACd,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;CAEd;;;AACD,AAAA,OAAO,CAAC,EAAE,CAAA;EACN,SAAS,EA5BG,IAAI;EA6BhB,KAAK,EA9BC,OAAO;CA+BhB"
+}
