@@ -1,15 +1,12 @@
-/* line 39, D:/git/sass-playlist/sass/style.scss */
 #main-nav {
   background: #032f3e;
 }
 
-/* line 42, D:/git/sass-playlist/sass/style.scss */
 #main-nav li {
   float: left;
   width: 14%;
 }
 
-/* line 48, D:/git/sass-playlist/sass/style.scss */
 #main-nav a {
   color: #f8f9fb;
   text-decoration: none;
@@ -18,20 +15,17 @@
   text-align: center;
 }
 
-/* line 57, D:/git/sass-playlist/sass/style.scss */
 #main-nav ul:after {
   content: "";
   display: block;
   clear: both;
 }
 
-/* line 63, D:/git/sass-playlist/sass/style.scss */
 section h1 {
   font-size: 24px;
   color: #032f3e;
 }
 
-/* line 68, D:/git/sass-playlist/sass/style.scss */
 .lead-banner {
   width: 100%;
   position: relative;
@@ -39,19 +33,16 @@ section h1 {
   text-align: right;
 }
 
-/* line 13, D:/git/sass-playlist/sass/style.scss */
 .lead-banner .banner-content {
   position: absolute;
   top: 50px;
   width: 100%;
 }
 
-/* line 18, D:/git/sass-playlist/sass/style.scss */
 .lead-banner img {
   width: 100%;
 }
 
-/* line 22, D:/git/sass-playlist/sass/style.scss */
 .lead-banner span {
   font-size: 46px;
   display: block;
@@ -59,32 +50,27 @@ section h1 {
   font-weight: bold;
 }
 
-/* line 29, D:/git/sass-playlist/sass/style.scss */
 .lead-banner span.title {
   font-weight: normal;
   margin-bottom: 30px;
 }
 
-/* line 73, D:/git/sass-playlist/sass/style.scss */
 .lessons-banner {
   width: 100%;
   position: relative;
   color: white;
 }
 
-/* line 13, D:/git/sass-playlist/sass/style.scss */
 .lessons-banner .banner-content {
   position: absolute;
   top: 50px;
   width: 100%;
 }
 
-/* line 18, D:/git/sass-playlist/sass/style.scss */
 .lessons-banner img {
   width: 100%;
 }
 
-/* line 22, D:/git/sass-playlist/sass/style.scss */
 .lessons-banner span {
   font-size: 46px;
   display: block;
@@ -92,10 +78,8 @@ section h1 {
   font-weight: bold;
 }
 
-/* line 29, D:/git/sass-playlist/sass/style.scss */
 .lessons-banner span.title {
   font-weight: normal;
   margin-bottom: 30px;
 }
-
 /*# sourceMappingURL=style.css.map */
