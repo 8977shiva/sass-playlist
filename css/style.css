@@ -1,101 +1,85 @@
-/* line 39, D:/git/sass-playlist/sass/style.scss */
+body {
+  font-family: arial;
+  background: #f8f9fb; }
+
+html, body, ul, ol, li, form, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0; }
+
+fieldset, img {
+  border: 0; }
+
+li {
+  list-style: none; }
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 #main-nav {
   background: #032f3e;
-}
+  width: auto; }
+  #main-nav li {
+    float: left;
+    width: 14%; }
+  #main-nav a {
+    color: #f8f9fb;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    text-align: center; }
 
-/* line 42, D:/git/sass-playlist/sass/style.scss */
-#main-nav li {
-  float: left;
-  width: 14%;
-}
-
-/* line 48, D:/git/sass-playlist/sass/style.scss */
-#main-nav a {
-  color: #f8f9fb;
-  text-decoration: none;
-  padding: 16px;
-  display: block;
-  text-align: center;
-}
-
-/* line 57, D:/git/sass-playlist/sass/style.scss */
 #main-nav ul:after {
   content: "";
   display: block;
-  clear: both;
-}
+  clear: both; }
 
-/* line 63, D:/git/sass-playlist/sass/style.scss */
 section h1 {
   font-size: 24px;
-  color: #032f3e;
-}
+  color: #032f3e; }
 
-/* line 68, D:/git/sass-playlist/sass/style.scss */
 .lead-banner {
   width: 100%;
   position: relative;
   color: white;
-  text-align: right;
-}
+  text-align: right; }
+  .lead-banner .banner-content {
+    position: absolute;
+    top: 50px;
+    width: 100%; }
+  .lead-banner img {
+    width: 100%; }
+  .lead-banner span {
+    font-size: 46px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .lead-banner span.title {
+    font-weight: normal;
+    margin-bottom: 30px; }
 
-/* line 13, D:/git/sass-playlist/sass/style.scss */
-.lead-banner .banner-content {
-  position: absolute;
-  top: 50px;
-  width: 100%;
-}
-
-/* line 18, D:/git/sass-playlist/sass/style.scss */
-.lead-banner img {
-  width: 100%;
-}
-
-/* line 22, D:/git/sass-playlist/sass/style.scss */
-.lead-banner span {
-  font-size: 46px;
-  display: block;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-/* line 29, D:/git/sass-playlist/sass/style.scss */
-.lead-banner span.title {
-  font-weight: normal;
-  margin-bottom: 30px;
-}
-
-/* line 73, D:/git/sass-playlist/sass/style.scss */
 .lessons-banner {
   width: 100%;
   position: relative;
-  color: white;
-}
-
-/* line 13, D:/git/sass-playlist/sass/style.scss */
-.lessons-banner .banner-content {
-  position: absolute;
-  top: 50px;
-  width: 100%;
-}
-
-/* line 18, D:/git/sass-playlist/sass/style.scss */
-.lessons-banner img {
-  width: 100%;
-}
-
-/* line 22, D:/git/sass-playlist/sass/style.scss */
-.lessons-banner span {
-  font-size: 46px;
-  display: block;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-/* line 29, D:/git/sass-playlist/sass/style.scss */
-.lessons-banner span.title {
-  font-weight: normal;
-  margin-bottom: 30px;
-}
-
-/*# sourceMappingURL=style.css.map */
+  color: white; }
+  .lessons-banner .banner-content {
+    position: absolute;
+    top: 50px;
+    width: 100%; }
+  .lessons-banner img {
+    width: 100%; }
+  .lessons-banner span {
+    font-size: 46px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .lessons-banner span.title {
+    font-weight: normal;
+    margin-bottom: 30px; }
